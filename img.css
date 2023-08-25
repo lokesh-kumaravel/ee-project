@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100;
+    height: 580px;
+    background-image: url('https://www.michaelmurphy.ie/wp-content/uploads/2019/10/johann-siemens-EPy0gBJzzZU-unsplash-1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: center;
+}
+.centered-text{
+    width: 100;
+    height: 50vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    block-size: 50%;
+}
+.container2{
+    width: 1200;
+    height: 700px;
+    background-image: url("index.jpg");
+    background-size: cover;
+    background-position: center;
+    position: center;
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: #8a4c8a;
+    padding: 0;
+    margin: 0%;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+text-decoration: none;
+color: #fff;
+width: 150px;
+display: block;
+padding: 20px;
+font-size: 18px;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+}
+.navbar a:hover{
+    background: #90b554;
+    transition: 0.2s; 
+    transform: scale(1.1);
+    cursor:pointer;
+}
